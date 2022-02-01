@@ -1,0 +1,59 @@
+.item-task-container {
+	width: 171px;
+	height: 106px;
+	background: var(--color-task-container);
+	border-radius: 8px;
+	box-shadow: inset -2px -2px 4px 0 #040b11, inset 2px 2px 4px 0 #1c232a,
+		0 13px 9px 0 #000000;
+	padding-left: 19px;
+	padding-top: 16px;
+}
+.item-task-container span {
+	display: block;
+}
+.name-task {
+	color: var(--secondary-color);
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+	margin-bottom: 13.5px;
+}
+.progress-item {
+	display: flex;
+	justify-content: space-between;
+}
+.progress-item span {
+	color: var(--secondary-color);
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 16px;
+}
+.number-percentage {
+	margin-right: 14px;
+}
+.progress-style {
+	width: 90%;
+	height: 4px;
+	background-color: #1c232a;
+	border-radius: 2px;
+	position: relative;
+}
+.inner-progress {
+	position: absolute;
+	background-color: var(--font-color-active);
+	height: 100%;
+	border-radius: 2px;
+	bottom: 0;
+	left: 0;
+}
+.time-container {
+	margin-top: 8px;
+	text-align: end;
+	margin-right: 14px;
+}
+.time-container span {
+	font-size: 10px;
+	font-weight: 300;
+	line-height: 14px;
+	color: var(--secondary-color);
+}

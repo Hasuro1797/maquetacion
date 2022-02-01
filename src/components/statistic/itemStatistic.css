@@ -1,0 +1,22 @@
+.statistic-item-container {
+	width: 100%;
+	height: 74px;
+	display: flex;
+	align-items: center;
+}
+.icon-statistic-container {
+	width: 54px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.amount-statistic {
+	font-size: 18px;
+	font-weight: 900;
+	line-height: 26px;
+	display: block;
+}
+.title-statistic {
+	font-weight: 300;
+	color: var(--secondary-color);
+}
